@@ -1,12 +1,5 @@
 defmodule Crc64 do
-    @moduledoc """
-  Implements AWS S3 compatible CRC64-NVME checksum calculation.
-  Pure Elixir implementation with no external dependencies.
-
-  CRC64 is a 64-bit cyclic redundancy check algorithm used for error detection.
-  This implementation uses the polynomial 0x9A6C9329AC4BC9B5 which is compatible
-  with AWS S3's CRC64 implementation.
-  """
+  @moduledoc File.read!("README.md")
 
   import Bitwise
 
