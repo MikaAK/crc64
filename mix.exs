@@ -8,7 +8,7 @@ defmodule Crc64.MixProject do
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      description: "Help calculate CRC64 checksums, great for validating Amazon AWS S3 downloads",
+      description: "Implements dependency free CRC64 checksum calculation, great for validating Amazon AWS S3 downloads",
       docs: docs(),
       package: package(),
       test_coverage: [tool: ExCoveralls],
